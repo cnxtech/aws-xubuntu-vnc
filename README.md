@@ -3,6 +3,7 @@ setup scripts to configure aws instance as xubuntu desktop supporting remote GUI
 
 commands
 --------
+```
     1  apt update
     2  apt upgrade
     3  apt install xubuntu-desktop
@@ -16,8 +17,9 @@ commands
    13  mkdir .vnc
    14  x11vnc -storepasswd .vnc/passwd
    17  reboot
+```
 
-rc.local
+/etc/rc.local
 --------
 ```
 #!/bin/sh -e
